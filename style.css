@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+  background-image: url("./pics/background.jpg");
+  background-attachment: fixed;
+  height: 1000px;
+}
+
+body {
+  color: rgb(252, 249, 246);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+img {
+  height: 750px;
+  margin-right: 300px;
+}
+.intro {
+  margin-right: 100px;
+}
+
+h1 {
+  font-size: 80px;
+  animation: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+button {
+  border-radius: 15%;
+  border-color: burlywood;
+  background-color: rgba(222, 184, 135, 0.027);
+  padding: 5px;
+}
+
+a:hover {
+  color: burlywood;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+}
